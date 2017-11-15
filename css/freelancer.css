@@ -166,15 +166,11 @@ section.success {
 header.masthead {
   padding-top: 0px;
   padding-bottom: 0px;
+  overflow: hidden;
   text-align: center;
   box-shadow: 0 10px 34px 10px rgba(0, 0, 0, 0.1);
   color: black;
   background: whitesmoke; }
-  header.masthead img {
-    display: block;
-    width: 80%;
-    margin: 0 auto 20px;
-    box-shadow: 0 10px 34px 10px rgba(0, 0, 0, 0.4); }
   header.masthead .intro-text .name {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
@@ -203,14 +199,13 @@ header.masthead {
     header.masthead iframe {
       margin-left: -100px;
       position: relative;
-      z-index: 1; } }
+      z-index: 1; }
+    header.masthead .backgroundMobile {
+      display: none; } }
 
 .newhr {
   background: #18BC9C;
   height: 2px; }
-
-iframe {
-  margin-left: -100px; }
 
 .inner-container {
   position: absolute;
@@ -254,6 +249,27 @@ iframe {
   border-radius: 2%;
   background-color: rgba(96, 96, 96, 0.7);
   box-shadow: 0 10px 34px 10px rgba(0, 0, 0, 0.2); }
+
+.container {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+@media screen and (min-width: 401px) and (max-width: 767px) {
+  .backgroundMobile {
+    display: none; }
+  iframe {
+    margin-left: -100px; } }
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .backgroundMobile {
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    height: 950px; }
+  iframe {
+    margin-left: -100px;
+    display: none; } }
 
 #portfolio {
   background-color: whitesmoke; }
