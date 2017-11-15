@@ -133,12 +133,9 @@ box-shadow: 0 10px 34px 10px rgba(0,0,0,.2);
     box-shadow: 0 10px 34px 10px rgba(0,0,0,.2);
 }
 
-.container{
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
 
-@media screen and (min-width: 415px) and (max-width: 767px) {
+
+@media screen and (min-width: 4px) and (max-width: 767px) {
    .backgroundMobile{
      display: none;
    }
