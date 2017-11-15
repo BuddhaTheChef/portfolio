@@ -254,13 +254,13 @@ header.masthead {
   padding-left: 0 !important;
   padding-right: 0 !important; }
 
-@media screen and (min-width: 401px) and (max-width: 767px) {
+@media screen and (min-width: 415px) and (max-width: 767px) {
   .backgroundMobile {
     display: none; }
   iframe {
     margin-left: -100px; } }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 414px) {
   .backgroundMobile {
     display: block;
     margin: 0;
