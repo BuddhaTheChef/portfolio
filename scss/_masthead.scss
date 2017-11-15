@@ -1,0 +1,131 @@
+// Styling for the masthead
+header.masthead {
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  text-align: center;
+  box-shadow: 0 10px 34px 10px rgba(0,0,0,.1);
+  color: black;
+  background:  whitesmoke;
+  img {
+    display: block;
+    width: 80%;
+    margin: 0 auto 20px;
+    box-shadow: 0 10px 34px 10px rgba(0,0,0,0.4);
+
+  }
+  .intro-text {
+    .name {
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 2em;
+      font-weight: 700;
+
+      display: block;
+
+      text-transform: uppercase;
+    }
+    .skills {
+      font-size: 1.25em;
+      font-weight: 300;
+    }
+  }
+}
+@media(min-width:768px) {
+  header.masthead {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    .intro-text {
+      position: absolute;
+      width: 80%;
+      left: 10%;
+      right: 20%;
+      top: 320px;
+      .name {
+        font-size: 4.75em;
+        z-index: 50;
+      }
+      .skills {
+        font-size: 1.75em;
+      }
+    }
+    iframe{
+      margin-left: -100px;
+      position: relative;
+      z-index: 1;
+    }
+
+  }
+
+}
+
+.newhr{
+  background: $theme-success;
+  height: 2px;
+}
+
+iframe{
+  margin-left: -100px;
+
+}
+
+
+.inner-container{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 950px;
+  left: 0;
+  background-color: rgba(255,255,255,0.6);
+  z-index: 50;
+}
+
+.intro-text {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  right: 20%;
+  top: 300px;
+  .name {
+    font-size: 4.75em;
+    z-index: 50;
+  }
+  .skills {
+    font-size: 1.75em;
+  }
+}
+
+// .about-pic{
+//   margin-top: 25px;
+// margin-bottom: 25px;
+// border-bottom-left-radius: 50%;
+// border-top-left-radius: 5%;
+// border-top-right-radius: 5%;
+// border-bottom-right-radius: 50%;
+// }
+//
+// .img-fluid{
+//   max-width: 60%;
+// }
+//
+.about-pic{
+  max-height: 450px;
+ margin-top: 15px;
+ margin-right: 5%;
+  margin-bottom: 5%;
+ border-bottom-left-radius: 50%;
+  border-top-left-radius: 5%;
+ border-top-right-radius: 5%;
+border-bottom-right-radius: 50%;
+border: solid rgb(88, 184, 157) 2px;
+box-shadow: 0 10px 34px 10px rgba(0,0,0,.2);
+}
+
+.about-content-container{
+  margin: 0;
+  display: inline-grid;
+  padding: 17px 12px;
+  border: solid rgb(88, 184, 157) 2px;
+  border-radius: 2%;
+  background-color: rgba(96, 96, 96,0.7);
+    box-shadow: 0 10px 34px 10px rgba(0,0,0,.2);
+}
