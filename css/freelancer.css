@@ -250,13 +250,13 @@ header.masthead {
   background-color: rgba(96, 96, 96, 0.7);
   box-shadow: 0 10px 34px 10px rgba(0, 0, 0, 0.2); }
 
-@media screen and (min-width: 4px) and (max-width: 767px) {
+@media screen and (min-width: 737px) and (max-width: 767px) {
   .backgroundMobile {
     display: none; }
   iframe {
     margin-left: -100px; } }
 
-@media screen and (min-width: 0px) and (max-width: 414px) {
+@media screen and (min-width: 0px) and (max-width: 736px) {
   .backgroundMobile {
     display: block;
     margin: 0;
